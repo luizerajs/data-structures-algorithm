@@ -1,4 +1,4 @@
-var groupAnagrams = function (strs) {
+function groupAnagrams(strs) {
   const stringKeys = strs.map((string) => string.split("").sort().join(""));
   const anagramMap = new Map();
   console.log(strs.length);
@@ -14,6 +14,6 @@ var groupAnagrams = function (strs) {
   }
 
   return [...anagramMap.values()];
-};
+}
 
 console.log(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
