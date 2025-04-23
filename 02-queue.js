@@ -43,7 +43,7 @@ class Queue {
 }
 
 // Example usage:
-const queue = new Queue();
+const queue = new Queue(); // FIFO
 queue.enqueue(1);
 queue.enqueue(2);
 queue.enqueue(3);
