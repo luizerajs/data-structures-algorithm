@@ -28,9 +28,7 @@ As três travessias mais comuns em árvores binárias são variações de **Dept
 ## Exemplo de árvore para referência
 
 ```
-
-    1
-
+ 1
 / \
  2 3
 / \ \
