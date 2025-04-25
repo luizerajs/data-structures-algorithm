@@ -44,7 +44,3 @@ git clone https://github.com/your-username/data-structures-js.git
 ## Contribuindo
 
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias, correções de bugs ou novos exemplos.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT.
