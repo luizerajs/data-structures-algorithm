@@ -1,8 +1,8 @@
 # Data Structures and Algorithms in JavaScript
 
-This repository contains examples and implementations of various data structures and algorithms in JavaScript. The goal is to provide a clear understanding of how these concepts work and how they can be applied in real-world scenarios.
+Este repositório contém exemplos e implementações de várias estruturas de dados e algoritmos em JavaScript. O objetivo é fornecer uma compreensão clara de como esses conceitos funcionam e como podem ser aplicados em cenários do mundo real.
 
-## Repository Structure
+## Estrutura do Repositório
 
 ```
 /data-structures-algorithm
@@ -23,28 +23,28 @@ This repository contains examples and implementations of various data structures
 └── README.md
 ```
 
-- **`data-structures/`**: Contains implementations of fundamental data structures like arrays, linked lists, stacks, queues, trees, graphs, and hash tables.
-- **`algorithms/`**: Includes examples of algorithms such as sorting, searching, recursion, dynamic programming, and greedy algorithms.
+- **`data-structures/`**: Contém implementações de estruturas de dados fundamentais como arrays, listas ligadas, pilhas, filas, árvores, grafos e tabelas hash.
+- **`algorithms/`**: Inclui exemplos de algoritmos como ordenação, busca, recursão, programação dinâmica e algoritmos gananciosos.
 
-## Visual Overview
+## Visão Geral Visual
 
-![Classification of Data Structure](https://media.geeksforgeeks.org/wp-content/uploads/20220520182504/ClassificationofDataStructure-660x347.jpg)
+![Classificação de Estruturas de Dados](https://media.geeksforgeeks.org/wp-content/uploads/20220520182504/ClassificationofDataStructure-660x347.jpg)
 
-## How to Use
+## Como Usar
 
-1. Clone the repository:
+1. Clone o repositório:
 
 ```bash
 git clone https://github.com/your-username/data-structures-js.git
 ```
 
-2. Navigate to the desired folder to explore the implementation of a specific data structure or algorithm.
-3. Run the JavaScript files using Node.js or your preferred environment.
+2. Navegue até a pasta desejada para explorar a implementação de uma estrutura de dados ou algoritmo específico.
+3. Execute os arquivos JavaScript usando Node.js ou seu ambiente preferido.
 
-## Contributing
+## Contribuindo
 
-Contributions are welcome! Feel free to submit pull requests with improvements, bug fixes, or new examples.
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias, correções de bugs ou novos exemplos.
 
-## License
+## Licença
 
-This project is licensed under the MIT License.
+Este projeto está licenciado sob a Licença MIT.
