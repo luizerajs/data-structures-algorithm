@@ -49,15 +49,17 @@ class Stack {
  * Open brackets must be closed in the correct order.
  * Every close bracket has a corresponding open bracket of the same type.
  * 
+ * Solution:
+
+ * valid input = "{}[]()" or "[{()}]"
+ * invalid input = "[]{)" or "[)" or "["
+ * output = boolean
+ * stack (LIFO) to save all OPEN brackets
+ * a map to define the rule between {} [] and ()
+ * 
  */
 
-// Solution:
 
-// valid input = "{}[]()" or "[{()}]"
-// invalid input = "[]{)" or "[)" or "["
-// output = boolean
-// stack (LIFO) to save all OPEN brackets
-// a map to define the rule between {} [] and ()
 
 function solution(string) {
   const bracketsMap = {

@@ -35,7 +35,7 @@ class BinaryTree {
       }
     }
   }
-  _printNode(node) {
+  _printNode(node) { // In-order
     if (node) {
       this._printNode(node.left);
       console.log(`${node.value} `);

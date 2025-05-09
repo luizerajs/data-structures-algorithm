@@ -11,8 +11,6 @@ function removeDuplicates(nums) {
     }
   }
 
-  console.log(newArray);
-  console.log(nums);
   return uniquePointer + root;
 }
 

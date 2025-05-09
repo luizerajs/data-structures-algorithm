@@ -6,7 +6,7 @@
 
     constraints: 
     - input: nums > 0 e nums < 10ˆ5 (100.000.000)
-    - input: 10^9 <= nums[i] <= 10ˆ9 
+    - input: -10^9 <= nums[i] <= 10ˆ9 
 
     output:
     - true if any value appears at least twice
@@ -23,7 +23,7 @@
 
     Solução:
     - Hash Table (Map) pra armazenar os valores visitados.
-    - Se em algum momento eu encontrar o elemento nos visitados
+    - Se em algum momento for encontrado o elemento no HashMap de visitados
     - Então eu retorno true. Caso contrário false
  */
 var containsDuplicate = function (nums) {
@@ -39,3 +39,7 @@ var containsDuplicate = function (nums) {
 
   return false;
 };
+
+// Example 
+console.log(containsDuplicate([1,2,3,4])) // expect false
+console.log(containsDuplicate([1,3,4,1])) // expect true

@@ -59,3 +59,7 @@ var isPalindrome = function (s) {
 
   return true;
 };
+
+// Example isPalindrome
+console.log(`expect true for "A man, a plan, a canal: Panama": (${isPalindrome('A man, a plan, a canal: Panama')})`)
+console.log(`expect false for "race a car": (${isPalindrome('race a car')})`)

@@ -20,11 +20,13 @@ Este repositório contém exemplos e implementações de várias estruturas de d
 │   ├── recursion/
 │   ├── dynamic-programming/
 │   └── greedy/
+├── exercises/
 └── README.md
 ```
 
 - **`data-structures/`**: Contém implementações de estruturas de dados fundamentais como arrays, listas ligadas, pilhas, filas, árvores, grafos e tabelas hash.
 - **`algorithms/`**: Inclui exemplos de algoritmos como ordenação, busca, recursão, programação dinâmica e algoritmos gananciosos.
+- **`exercises/`**: Inclui execícios feitos no leet code que gostaria que ficassem armazenadas aqui.
 
 ## Visão Geral Visual
 
@@ -35,7 +37,7 @@ Este repositório contém exemplos e implementações de várias estruturas de d
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/your-username/data-structures-js.git
+git clone https://github.com/luizerajs/data-structures-algorithm.git
 ```
 
 2. Navegue até a pasta desejada para explorar a implementação de uma estrutura de dados ou algoritmo específico.
